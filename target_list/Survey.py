@@ -207,6 +207,7 @@ def tlist(Gaia_run):
                 acc2-=1
         acc+=1
 
+
     master = [name, sp, dec, ra, teff, vmag, distance, diameter, rot]
     tab = PrettyTable()
     tab.field_names = ['Name', 'sp', 'ra', 'dec', 'teff', 'vmag', 'distance', 'diameter', 'rot', 'Hrs of X < 1.5', 'N<15', 'N<12', 'N<9', 'Start']
