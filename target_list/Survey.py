@@ -221,4 +221,4 @@ def tlist(Gaia_run):
     return(master)
 
 
-output = tlist(False) # change boolean to toggle reference star search (reduces run time)
+output = tlist(False)  # change boolean to toggle reference star search (reduces run time)
